@@ -9,13 +9,12 @@ window.SITE = {
   demo: true,                      // remove at launch
   // cover: "assets/cover.jpg",    // their public product photo, under 150KB
   theme: { primary: "#b45309" },
-  fields: [
-    { id: "nama", label: "Nama", type: "text" },
-    { id: "metode", label: "Metode", type: "select", options: ["Ambil di tempat", "Dine in", "Antar (ongkir via chat)"] }
-  ],
-  items: [
-    { name: "Kopi Susu Gula Aren", price: 18000, desc: "Signature kami", cat: "Kopi", badge: "Best seller", img: "" },
-    { name: "Americano", price: 15000, desc: "Hot / iced", cat: "Kopi", img: "" },
-    { name: "Roti Bakar Coklat Keju", price: 17000, desc: "Hangat, renyah", cat: "Makanan", img: "" }
-  ]
+  unit: "box",
+minQty: 20,
+fields: [
+  { id: "nama", label: "Nama", type: "text" },
+  { id: "tanggal", label: "Tanggal kirim", type: "date" },
+  { id: "jam", label: "Jam kirim", type: "time" },
+  { id: "alamat", label: "Alamat pengiriman", type: "text" }
+]
 };
