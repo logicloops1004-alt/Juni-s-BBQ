@@ -1,5 +1,5 @@
 window.SITE = {
-  name: "Kopi Senja Dago",
+  name: "Juni's Home BBQ & Catering",
   tagline: "Kopi lokal, suasana hangat. Pesan lewat WhatsApp.",
   wa: "6281234567890",              // format 62..., no + and no spaces. Demo: your number, not the owner's.
   address: "Jl. Ir. H. Juanda No. 10, Bandung",
